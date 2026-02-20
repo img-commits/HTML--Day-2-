@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>About Mr IMG</title>
-     <style>
+
+    <style>
         body {
             font-family: Arial, sans-serif;
             background-color: white;
@@ -10,15 +12,11 @@
             padding: 30px;
         }
 
-        h1 {
+        header h1 {
             color: #2c3e50;
         }
 
-        h2 {
-            color: #34495e;
-        }
-
-        h3 {
+        h2, h3 {
             color: #34495e;
         }
 
@@ -28,20 +26,21 @@
         }
 
         ul {
-            list-style-type: square;
+            list-style-type: circle;
             display: inline-block;
             text-align: left;
             font-size: 16px;
             color: #555;
         }
 
-        a {
+        nav a {
             color: #3498db;
             text-decoration: none;
             font-weight: bold;
+            margin: 0 10px;
         }
 
-        a:hover {
+        nav a:hover {
             text-decoration: underline;
         }
 
@@ -55,51 +54,107 @@
             width: 50%;
             margin: 20px auto;
         }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
     </style>
 
 </head>
 <body>
 
-    <!-- Main Heading -->
-    <h1>Lasisi Abdullahi</h1>
+    <!-- Header Section -->
+    <header>
+        <h1>Lasisi Abdullahi</h1>
+        <p>Tech Enthusiast | Beginner Developer | Process Over Vibes</p>
+    </header>
 
     <hr>
 
-    <!-- Short Paragraph -->
-    <p>
-        My name is Lasisi Abdullahi, AKA IMG. I'm a tech enthusiast, even though I'm a beginnner, I'm very passionate about coding, design, 
-        and building cool stuff on the web.<br>
-        Now all I do is spend most of my time learning new technologies and improving my skills every day.<br>
-        The goal is simple; no vibe coding here, going through the process bit by bit no matter how it goes!!!
-    </p>
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#favorite">Favorite Website</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
     <hr>
 
-    <!-- Favorite Hobbies -->
-    <h2>My Favorite Hobbies</h2>
-    <ul>
-        <li>Coding</li>
-        <li>Playing Football and Watching Football Matches</li>
-        <li>Watching Tutorial Videos</li>
-        <li>Watching Movies</li>
-        <li>Playing Games</li>
-    </ul>
+    <!-- Main Content -->
+    <main>
 
-    <hr>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Lasisi Abdullahi, AKA IMG. I'm a tech enthusiast and very passionate about coding, design,
+                and building cool stuff on the web.
+            </p>
+            <p>
+                I spend most of my time learning new technologies and improving my skills every day.
+                The goal is simple; no vibe coding here. Going through the process bit by bit no matter how it goes.
+            </p>
+        </section>
 
-    <!-- Link to Favorite Website -->
-    <h2>My Favorite Website</h2>
-    <p>
-        Since you're still here, check out my favorite website:
-        <a href="https://www.codecademy.com/" target="_blank">Codecademy</a><br>
-        I spend a lot of my free time on Codecademy using the resources to help my journey I don't fancy just staring at YouTube tuts.
-    </p>
+        <hr>
 
-    <hr>
+        <!-- Hobbies Section -->
+        <section id="hobbies">
+            <h2>My Favorite Hobbies</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Playing and Watching Football</li>
+                <li>Watching Tutorial Videos</li>
+                <li>Watching Movies</li>
+                <li>Playing Games</li>
+            </ul>
+        </section>
 
-    <!-- Image -->
-    <h3>Wondering what I look like? You gotta meet me in person to find out...this is just an avatar</h3>
-    <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/1X9KCkTD/avatarrrpng.png' border='0' alt='avatarrrpng'></a>
+        <hr>
+
+        <!-- Favorite Website Section -->
+        <section id="favorite">
+            <h2>My Favorite Website</h2>
+            <p>
+                Since you're still here, check out my favorite website:
+                <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+            </p>
+            <p>
+                I spend a lot of my free time there using the resources to support my learning journey.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                Phone: <a href="tel:+2340123456789">+234  012 345 6789</a>
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Image Section -->
+        <section>
+            <h3>
+                Wondering what I look like? You have to meet me in person to find out.
+                This is just an avatar.
+            </h3>
+            <img src="https://i.postimg.cc/1X9KCkTD/avatarrrpng.png" alt="Avatar image">
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Lasisi Abdullahi (IMG). All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
