@@ -1,0 +1,70 @@
+/* Page Background */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b5cdfc ;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Main Heading */
+header h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #1b4332;
+    font-size: 42px;
+}
+
+/* Section Spacing */
+section {
+    margin: 30px auto;
+    padding: 20px;
+    width: 70%;
+}
+
+/* Paragraph Styling */
+p{
+    color: #444;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Hobbies List */
+.hobby-list {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.hobby-list li {
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+/* Image Border */
+img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 4px solid #1a237e;
+}
+
+/* Navigation */
+nav a {
+    color: #0d47a1;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
